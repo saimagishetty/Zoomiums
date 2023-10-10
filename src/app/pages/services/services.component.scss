@@ -1,0 +1,472 @@
+.cor-services-bg-main {
+    max-width: 1440px;
+    margin: auto;
+    background-image: url('../../../assets/images/services/Group-39935.png'), url('../../../assets/images/services/Group 39922.png'), url('../../../assets/images/services/Vector.png'), url('../../../assets/images/services/Group 39923.png'), url('../../../assets/images/services/Group.png'), url('../../../assets/images/services/Circle 5.png'), url('../../../assets/images/services/Vector1.png'), url('../../../assets/images/services/Group 39934.png'), url('../../../assets/images/services/lightbulb.png'), url('../../../assets/images/services/Line 8.png'), url('../../../assets/images/services/Line 11.png'), url('../../../assets/images/services/Ellipse 20.png'), url('../../../assets/images/services/Group 39933.png'), url('../../../assets/images/services/Rectangle 98.png'), url('../../../assets/images/services/Highlight 32.png'), url('../../../assets/images/services/Vector 444.png');
+    background-repeat: no-repeat;
+    ;
+    background-repeat: no-repeat;
+    background-position: 54% 25%, 90% 7%, 0% 22%, 100% 5%, 32% 38%, 0% 50%, 100% 50%, 100% 53%, 12% 71%, 16% 80%, 80% 98%, 100% 36%, 80% 32%, 10% 9%, 90% 20%, 10% 42%;
+    // position: absolute;
+    // top: 0;
+    padding-top: 50px;
+}
+
+
+h2 {
+    padding: 0px 0px 40px 10px;
+}
+
+ul {
+    list-style-image: url('../../../assets/images/services/Vector 10.png');
+
+}
+
+li {
+    padding: 5px;
+
+}
+
+.cor-color-black {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.cor-services-section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 10px 50px 10px 50px;
+}
+
+.cor-services-bg1 {
+    //     background-image: url('../../../assets/images/services/Rectangle 97.png') ;
+    //     background-repeat: no-repeat;
+    //     background-image: url('../../../assets/images/services/Rectangle 97.png');
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    background: none;
+}
+
+.cor-services-bg2 {
+    // background-image: url('../../../assets/images/services/path.png'),url('../../../assets/images/services/Ellipse 20.png') ;
+    // background-repeat: no-repeat;
+    // background-position: center,top right;
+
+
+}
+
+.cor-services-bg3 {
+    background-image: url('../../../assets/images/services/Vector 42.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 300px;
+}
+
+.cor-services-main {
+    margin: auto;
+    max-width: 1440px;
+    padding-top: 100px;
+    top: 0;
+}
+
+// .hi{
+//     background-image: url('../../../assets/images/services/Vector 445.png');
+//     background-repeat: no-repeat;
+
+// }
+
+// .cor-md-bg1{
+//     background-image: url('../../../assets/images/services/Vector 445.png');
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     // padding: 80px;
+
+// }
+// .cor-ser-bg{
+
+//     background-image: url('../../../assets/images/services/Rectangle 98.png');
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     padding: 80px;
+//     padding-top: 0px;
+// }
+.cor-ser-bg-1 {
+    background-image: url('../../../assets/images/services/Vector 445.png');
+    background-repeat: no-repeat;
+    background-size: contain, 80px;
+    padding: 80px;
+
+}
+
+.cor-ser-bg-2 {
+    // background-image: url('../../../assets/images/services/Vector 444.png');
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // padding: 100px;
+
+
+}
+
+.cor-ser-bg-3 {
+    background-image: url('../../../assets/images/services/Ellipse 23.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 140px;
+}
+
+.cor-ser-bg-4 {
+    background-image: url('../../../assets/images/services/Ellipse 221.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+}
+
+.cor-ser-bg-5 {
+    background-image: url('../../../assets/images/services/Ellipse 22.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 120px;
+}
+
+// ------------------------media queries --------------------
+
+@media only screen and ((min-width: 601px) and (max-width:1200px)) {
+    .cor-ser-bg {
+        // background:none;
+        background-image: url('../../../assets/images/services/Rectangle 98.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        // padding: 80px;
+
+    }
+
+    .cor-ser-bg-1 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-2 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-3 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-4 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-5 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-services-bg-main {
+        background: none;
+        padding: 0px;
+
+    }
+
+    // .cor-services-main{
+    //     // max-width: 360px;
+    //     // box-sizing: border-box;
+
+    // }
+    .cor-services-bg1 {
+        // background-size: 400px;
+        background-size: contain;
+
+    }
+
+    .cor-services-bg2 {
+        background: none;
+        background-size: contain;
+        background-position: 100% 20%;
+        ;
+        background-image: url('../../../assets/images/services/path.png');
+        background-repeat: no-repeat;
+    }
+
+    .cor-services-bg3 {
+        background: none;
+        background-image: url('../../../assets/images/services/Ellipse 21.png');
+        background-size: 200px;
+        background-repeat: no-repeat;
+
+    }
+
+    .cor-services-md-section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // padding: 0px;
+        padding-top: 0px;
+        gap: 0px;
+
+        // background: none;
+        // background-image: url('../../../assets/images/services/Rectangle 97.png');
+        // background-repeat: no-repeat;
+        // background-size: contain;
+        img {
+            max-width: 100%;
+            height: 300px;
+        }
+
+        .cor-md-bg1 {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            padding-top: 80px;
+
+            h2 {
+                font-size: 25px;
+            }
+
+            h1 {
+                font-size: 16px;
+            }
+
+            li {
+                font-size: 12px;
+            }
+
+            ul {
+                padding: 0px;
+
+            }
+
+        }
+
+        .cor-md-flex-r {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            // padding: 0px;
+            gap: 70px;
+
+            img {
+                max-width: 50%;
+                height: 300px;
+            }
+        }
+
+        .cor-md-flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            // padding: 0px;
+            gap: 70px;
+
+            img {
+                max-width: 50%;
+                height: 300px;
+            }
+
+        }
+
+        #cor-services-lg {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .cor-services-bg2 {
+            background-image: none
+        }
+
+        .cor-services-bg3 {
+            background-image: none
+        }
+
+        #bg1 {
+            background-image: url('../../../assets/images/services/Rectangle 97.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+    }
+    .cor-uni1{
+        flex-direction: row;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .sub-head {
+        padding-top: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .cor-color-black {
+        border: none;
+    }
+
+    .cor-ser-bg {
+        background: none;
+    }
+
+    .cor-ser-bg-1 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-2 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-3 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-4 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-ser-bg-5 {
+        background: none;
+        padding: 0px;
+    }
+
+    .cor-services-bg-main {
+        background: none;
+        padding-top: 0px;
+    }
+
+    // .cor-services-main{
+    //     // max-width: 360px;
+    //     // box-sizing: border-box;
+
+    // }
+    .cor-services-bg1 {
+        // background-size: 400px;
+    }
+
+    .cor-services-bg1 {
+        background-image: url('../../../assets/images/services/Rectangle 97.png');
+        background-repeat: no-repeat;
+        background-size: 350px;
+        padding: 0px;
+        padding-left: 0px;
+
+    }
+
+    .cor-services-bg2 {
+        background: none;
+        background-size: contain, 100px;
+        background-position: 100% 20%, top right;
+        background-image: url('../../../assets/images/services/path.png'), url('../../../assets/images/services/Ellipse 20.png');
+        background-repeat: no-repeat;
+    }
+
+    .cor-services-bg3 {
+        background: none;
+        background-image: url('../../../assets/images/services/Ellipse 21.png');
+        background-size: 200px;
+        background-repeat: no-repeat;
+
+    }
+
+    .cor-services-md-section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // padding: 0px;
+        padding-top: 0px;
+        gap: 0px;
+
+        // background: none;
+        // background-image: url('../../../assets/images/services/Rectangle 97.png');
+        // background-repeat: no-repeat;
+        // background-size: contain;
+        img {
+            max-width: 100%;
+        }
+
+        .cor-md-bg1 {
+
+
+            h2 {
+                font-size: 25px;
+            }
+
+            h1 {
+                font-size: 16px;
+            }
+
+            li {
+                font-size: 12px;
+            }
+
+            ul {
+                padding: 0px;
+
+            }
+
+        }
+
+        .cor-md-flex-r {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // padding: 0px;
+            gap: 0px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .cor-md-flex {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            // padding: 0px;
+            gap: 0px;
+
+            img {
+                max-width: 100%;
+            }
+
+        }
+
+        .cor-services-bg2 {
+            background-image: none
+        }
+
+        .cor-services-bg3 {
+            background-image: none
+        }
+
+        #bg1 {
+            background-image: url('../../../assets/images/services/Rectangle 97.png');
+            background-repeat: no-repeat;
+            background-size: 400px;
+
+        }
+    }
+
+
+}

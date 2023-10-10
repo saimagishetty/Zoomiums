@@ -1,0 +1,141 @@
+<div class='cor-header-slin'>
+    <div class='cor-header-slin-la'>
+        <span class="material-icons-outlined md-18">
+        </span>
+        <div class="cor-color-black cor-text-16-400-Nunito"><b>21800 Haggerty Rd , Suite #212, Northville , MI - 48167
+                USA.</b></div>
+    </div>
+    <div class='cor-header-slin-lb cl-bylw-a cl-fwit-a cor-bg-color-headerorange'>
+        <span class="material-icons md-18">
+            <img src="../../../assets/images/icons/Vector.png" alt="">
+        </span>
+        <div class="cor-color-headerbg cor-text-16-400-Nunito ">+1-947-(228)-6862</div>
+    </div>
+</div>
+
+<div i="cor-h-main" class="cor-header-main" [ngClass]='{ "cor-bg" : my_value > 60 }'>
+
+    <div class="cor-header-main-div1">
+        <img src="../../../assets/images/home/coretracker logo2 1.png" class="cor-header-logo">
+        <ul class="cor-header-mnin-menu-ul">
+            <li (click)="openTop()"><a [routerLink]="['/']" class="header-list-a underline hi cor-selected"
+                    [ngClass]='{"cor-selected" : current == 0 }'><b>Home</b></a></li>
+            <li (click)="openTop()" ><a [routerLink]="['/aboutus']" class="header-list-a underline hi"
+                    [ngClass]='{"cor-selected" : current == 1 }'><b>About Us</b></a></li>
+            <li><a class=" dropping header-list-a underline">
+                    <a href="javascript:void(0)" class="dropbtn header-list-a underline"
+                        [ngClass]='{"cor-selected" : current == 2 }'><b>Services</b>
+                        <i class='fas fa-chevron-down '></i>
+                    </a>
+                    <div class="dropdown-content header-list-a ">
+                        <div class="cor-try"></div>
+                        <div class="cor-try1">
+                            <a class="staffing-link " (click)="openTop()" [routerLink]="['/services']">
+                                <div [ngClass]='{"cor-selected" : current1 == 1 }'><b>Engineering services</b></div>
+                            </a>
+                            <!-- <hr> -->
+                            <a class="staffing-link " (click)="openTop()" [routerLink]="['/staffing']">
+                                <div [ngClass]='{"cor-selected" : current1 == 2 }'><b>Staffing Services</b></div>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li><a class=" dropping header-list-a underline">
+                    <a href="javascript:void(0)" class="dropbtn header-list-a underline"
+                        [ngClass]='{"cor-selected" : current == 3 }'><b>Products</b>
+                        <i class='fas fa-chevron-down '></i>
+                    </a>
+                    <div class="dropdown-content header-list-a ">
+                        <div class="cor-try"></div>
+                        <div class="cor-try1">
+                            <a class="staffing-link " (click)="openTop()" [routerLink]="['/products/ims']">
+                                <div [ngClass]='{"cor-selected" : current2 == 1 }'><b>IMS</b></div>
+                            </a>
+                            <a class="staffing-link " (click)="openTop()" [routerLink]="['/products/hrms']">
+                                <div [ngClass]='{"cor-selected" : current2 == 2 }'><b>HRMS</b></div>
+                            </a>
+                            <a class="staffing-link " (click)="openTop()" [routerLink]="['/products/crm']">
+                                <div [ngClass]='{"cor-selected" : current2 == 3 }'><b>CRM</b></div>
+                            </a>
+                            <a class="staffing-link " (click)="openTop()" [routerLink]="['/products/cor-fins']">
+                                <div [ngClass]='{"cor-selected" : current2 == 4 }'><b>COR FINS</b></div>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </li>
+<!-- 
+            <li><a [routerLink]="['/products']" class="header-list-a underline hi"
+                    [ngClass]='{"cor-selected" : current == 3 }'><b>Products</b></a></li> -->
+            <!-- <li><a [routerLink]="['/staffing']" class="header-list-a underline">Staffing</a></li> -->
+            <li><a [routerLink]="['/clients']" (click)="openTop()" class="header-list-a underline hi"
+                    [ngClass]='{"cor-selected" : current == 4 }'><b>Clients</b></a></li>
+            <li><a [routerLink]="['/contact']" (click)="openTop()" class="header-list-a underline hi"
+                    [ngClass]='{"cor-selected" : current == 5 }'><b>Contact</b></a></li>
+        </ul>
+        <img src="../../../assets/images/icons/navigation.png" width="45px" class="cor-mob-menu-icon"
+            *ngIf="!opendropbar" (click)="dropbar()">
+        <img src="../../../assets/images/icons/close.png" width="45px" class="cor-mob-menu-icon" *ngIf="opendropbar"
+            (click)="dropbar()">
+    </div>
+</div>
+
+<div class="drop" *ngIf="opendropbar" (click)="closeDrop()">
+    <h1><a [routerLink]="['/']" class="header-list-a underline"><b>Home</b></a></h1>
+    <h1><a [routerLink]="['/aboutus']" class="header-list-a underline"><b>About Us</b></a></h1>
+    <h1><a [routerLink]="['/services']" class="header-list-a underline"><b>Services</b></a></h1>
+    <h1><a [routerLink]="['/products']" class="header-list-a underline"><b>Products</b></a></h1>
+    <h1><a [routerLink]="['/staffing']" class="header-list-a underline"><b>Staffing</b></a></h1>
+    <h1><a [routerLink]="['/clients']" class="header-list-a underline"><b>Clients</b></a></h1>
+    <h1><a [routerLink]="['/contact']" class="header-list-a underline"><b>Contact</b></a></h1>
+</div>
+
+
+
+<!-- <div *ngIf="loading">Refreshing...</div> -->
+
+<!-- <div class="cor-header-mobile-menu cl-bgey-a" id='jhmob-mlist'>
+        <div class="cor-header-mobmenu-head">
+            <span>
+                <img src="../../../assets/images/home/image 1.png" alt="">
+            </span>
+            <span class="material-icons-outlined" id='jhmob-mclose'>
+                close
+            </span>
+        </div>
+        <div class="cor-header-mobmenu-list">
+            <ul>
+                <li><a [routerLink]="['/']">Home</a></li>
+                <li><a [routerLink]="['/erp']">ERP</a></li>
+                <li><a [routerLink]="['/supplychainmanagement']">Supply chain Management</a></li>
+                <li><a [routerLink]="['/Vision']">Vision</a></li>
+                <li><a [routerLink]="['/Technologies']">Technologies</a></li>
+                <li><a [routerLink]="['/Services']">Services</a></li>
+                <li><a [routerLink]="['/Products']">Products</a></li>
+                <li><a [routerLink]="['/Clients']">Clients</a></li>
+                <li><a [routerLink]="['/Contact']">Contact</a></li>
+            </ul>
+        </div>
+        <div class="cor-header-mobmenu-cdetails">
+            <div class='container'>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class='cor-header-slin-la'>
+                            <span class="material-icons-outlined md-18">
+                            </span>
+                            <div>37085, Grand River Avenue, Suite #083, Farmington, MI, 48335, USA.</div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class='cor-header-slin-lb cl-bylw-a cl-fwit-a'>
+                            <span class="material-icons md-18">
+                                <img src="../../../assets/images/icons/Vector.png" alt="">
+                            </span>
+                            <div>+1-947-(228)-6862</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
