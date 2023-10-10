@@ -1,0 +1,84 @@
+.jmj-cco{
+    font-size: 15px;
+    padding-top: 7.67em;
+    padding-left: 4em;
+    min-height:70vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(../../../assets/images/Monumnets/londonBridge.png);
+    background-position: right -2em bottom -2em;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+}
+
+.jmj-cco-headname{
+    font-size: 3em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+.jmj-cco-subHead{
+    font-size: 1em;
+    font-family: Nunito Sans;
+    padding-bottom:1em;
+}
+
+.jmj-cco-list-box{
+ display: flex;
+ flex-direction: row;
+ gap:3em;   
+}
+.jmj-cco-listing>li{
+    padding:0.4em;
+    font-size: 1em;
+    font-weight: 700;
+}
+.jmj-cco-listing{
+    margin:0;
+    padding-left: 1.5em;
+    list-style-image: url('../../../assets/images/icons/rightMark.png');
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .jmj-cco{
+        padding-left: 2em;
+        background-size: 100% auto;
+        background-position: right bottom ;
+    }
+    .jmj-cco{
+        font-size: 12.5px;
+    }
+    .jmj-cco-list-box{
+        flex-direction: column;
+        gap:0em; 
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .jmj-cco{
+        background-size: 100% auto;
+        background-position: right bottom ;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .jmj-cco{
+        background-size: 90% auto;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .jmj-cco{
+        background-size: 80% auto;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }

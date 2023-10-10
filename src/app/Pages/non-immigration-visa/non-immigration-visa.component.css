@@ -1,0 +1,8 @@
+.jmj-visa-class-box>div{
+    padding: 25px 50px;
+}
+
+.jmj-visa-class-box>div>img{
+    max-height: 150px;
+    object-fit: contain;
+}

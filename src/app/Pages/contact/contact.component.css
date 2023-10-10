@@ -1,0 +1,23 @@
+.contactinfo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 100px 50px 60px ;
+
+}
+.contactinfo-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+.contactinfo-item>div>h3{
+    font-size: 1em; 
+    font-weight: 600;
+}
+
+.contactinfo-item>div>p{
+    font-size: 1em; 
+    font-weight: 600;
+}

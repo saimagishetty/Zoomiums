@@ -1,0 +1,40 @@
+.jmj-headcomptwo-cont{
+    font-size: 16px;
+    padding-bottom:2em;
+}
+
+.jmj-headcomptwo-span{
+    padding-top: 5em;
+    color:#77838F;
+    padding-bottom: 0.5em ;
+    font-size: 1.1em;
+}
+.jmj-headcomptwo-headname{
+    font-size: 3em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+.jmj-headcomptwo-subHead{
+    font-size: 1em;
+    font-family: Nunito Sans;
+    padding-bottom:1em;
+}
+
+.jmj-headcomptwo-list-box{
+    display: flex;
+    flex-direction: row;
+    gap:3em;   
+}
+.jmj-headcomptwo-listing>li{
+   padding:0.4em;
+   font-size: 1em;
+   font-weight: 700;
+}
+.jmj-headcomptwo-listing{
+   margin:0;
+   padding-left: 1.5em;
+   list-style-image: url('../../../assets/images/icons/rightMark.png');
+}

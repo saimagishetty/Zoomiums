@@ -1,0 +1,17 @@
+.jmj-count-cont{
+    font-size: 15px;    
+}
+.jmj-count-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 0;
+}
+.jmj-count-item>h3{
+    font-size: 3em;
+    font-weight: 600;
+}
+.jmj-count-item>span{
+    font-size: 1.2em;
+    font-weight: 600;
+}

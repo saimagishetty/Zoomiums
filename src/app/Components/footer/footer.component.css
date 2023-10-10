@@ -1,0 +1,27 @@
+footer{
+    font-size: 14px;
+    padding: 1.4em;
+    margin-top: 5em;
+}
+.jmj-footer-headtxt{
+    font-size: 1.285em;
+    padding: 10px 20px;
+    font-weight:  800;
+}
+.jmj-footer-paratxt{
+    font-size: 1em;
+    padding: 0 30px 0 20px;
+    color: #696969;
+}
+.jmj-footer-list{
+    list-style-type: none;
+    padding:0 20px;
+}
+.jmj-footer-list>li{
+    padding: 0 0 0.6em 0;
+    font-size: 1em;
+    color:#696969;
+}
+.jmj-footer-list>li>b{
+    font-size: 1.15em;
+}
