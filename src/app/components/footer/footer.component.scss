@@ -11,12 +11,12 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: end;
 	max-width: 1220px;
 	width: 100%;
 	margin: auto;
 	gap: 40px 40px;
-	padding: 60px 30px 90px;
+	padding: 10px 30px 50px;
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	div{
@@ -29,8 +29,9 @@ footer{
 	align-items: center;
 	justify-content: space-between;
 	img{
-		height: 66px;
-		object-fit: cover;
+		height: 200px;
+		width: 200px;
+		// object-fit: cover;
 	}
 	p{
 		max-width: 270px;
