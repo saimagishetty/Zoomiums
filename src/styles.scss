@@ -1,0 +1,145 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+$allcolors: (
+    "headerbg":#FFFFFF,
+    "headerorange":#F9AB00,
+    "bodybg":#F5F5F5,
+    "footerbg": #ECEDF2,
+    "blue":#302EA7,
+    "lightblue": #1967D2,
+    "Quotes": #296073,
+    "SalesOrder":#97AFB9,
+    "PurchaseOrder": #647B84,
+    "WarehouseManagement": #6B516D,
+    "ShippingReceiving": #00AF93,
+    "Invoicing": #00A5E5,
+    "ProcessCompleted": #00C9A7,
+    "lightgrayishblue": #ECEDF2,
+    "lightnavy": #6C63FF,
+    "black": #202124,
+    "lightgray": #D7D7D7,
+    "lightgray1": #DBDBDB,
+    "lightblack": #4A4C4C,
+    "grayblack": #696969,
+    "slategray": #77838F,
+    "bluemagenta": #302EA7,
+);
+
+$headerbg	: #FFFFFF;
+$headerorange: #F9AB00;
+$bodybg: #F5F5F5;
+$ooterbg: #ECEDF2;
+$blue: #302EA7;
+$lightblue: #1967D2;
+$Quotes: #296073;
+$SalesOrder: #97AFB9;
+$PurchaseOrder: #647B84;
+$WarehouseManagement: #6B516D;
+$ShippingReceiving: #00AF93;
+$Invoicing: #00A5E5;
+$ProcessCompleted: #00C9A7;
+$lightgrayishblue: #ECEDF2;
+$lightnavy: #6C63FF;
+$black: #202124;
+$lightblue: #1967D2;
+$lightgray: #D7D7D7;
+$lightgray1: #DBDBDB;
+$lightblack: #4A4C4C;
+$grayblack: #696969;
+$slategray: #77838F;
+$blue-magenta: #302EA7;
+
+
+
+@each $var, $color in $allcolors {
+    .cor-color-#{$var} {
+        color: $color;
+    }
+
+    .cor-bg-color-#{$var} {
+        background-color: $color;
+    }
+}
+
+
+
+// font included with font-family,font-weight,font-sizes
+$alltext:(
+    "Nunito":Nunito,
+    "Nunito-Sans":Nunito Sans,
+);
+
+@each $i in 12,14,15,16,18,20,22,23,24,28,30,40,45,70{
+    @each $j in 200,300,400,500,600,700,800,900,100{
+         @each $k, $m in $alltext{
+            .cor-text-#{$i}-#{$j}-#{$k}{
+                font-family: #{$m};
+                font-weight: #{$j};
+                font-size:#{1px*$i};
+            }
+        }
+    }
+}
+.body{
+    margin:0; 
+    background: #FFFFFF;
+}
+
+h1,h2, h3,h4, h5, h6,p{
+    margin: 0;
+}
+
+.cor-body-c{
+    margin-top: -86px;
+}
+
+.blinking-star.fa-star {
+    color: #000;
+    font-size: 100px;
+    margin-right: 20px;
+  }
+  
+  /* Step 1: Make the stars blink using keyframe animation and opacity*/
+  .blinking-star {
+    -webkit-animation: blink-animation 1s infinite;
+    animation: blink-animation 1s infinite;
+  }
+  
+  @-webkit-keyframes blink-animation {
+    0%   { opacity: 1; }
+    50%  { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @keyframes blink-animation {
+    0%   { opacity: 1; }
+    50%  { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  /* Step 2: Make the second star blink with delay*/
+  .star2 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  /* Step 3: Resize the stars as they blink */
+  .blinking-star {
+    -webkit-animation: blink-animation 0s infinite, scale-animation 5s infinite;
+    animation:         blink-animation 0s infinite, scale-animation 5s infinite;
+  }
+  
+  .star2 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  @-webkit-keyframes scale-animation {
+    0%   { transform: scale(0.5,0.5); }
+    50%  { transform: scale(1,1); }
+    100% { transform: scale(0.5,0.5); }
+  }
+  @keyframes scale-animation {
+    0%   { transform: scale(1,1); }
+    50%  { transform: scale(0.8,0.8); }
+    100% { transform: scale(1,1); }
+  }

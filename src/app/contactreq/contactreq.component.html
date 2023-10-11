@@ -1,0 +1,23 @@
+<div class="form-bg-container cor-bg-color-headerbg">
+        <h1 class="cor-text-30-700-Nunito cor-color-lightblue heading Req">Request Qoute</h1>
+        <form class="form-div" action="" #addUser="ngForm" (ngSubmit)="submitForm(addUser)">
+            <fieldset class="form-box ">
+                <legend class="form-box-heading cor-text-12-400-Nunito">Your Full Name</legend>
+                <input type="text" name="user_name" class="input-box" maxlength="40" ngModel>
+            </fieldset>
+            <fieldset class="form-box">
+                <legend class="form-box-heading cor-text-12-400-Nunito">Your Email</legend>
+                <input type="email" name="user_email" class="input-box" maxlength="40" ngModel>
+            </fieldset>
+            <fieldset class="form-box">
+                <legend class="form-box-heading cor-text-12-400-Nunito">Subject</legend>
+                <input type="text" name="user_subject" class="input-box" maxlength="40" ngModel>
+            </fieldset>
+            <fieldset class="form-box" id="form-box1">
+                <legend class="form-box-heading cor-text-12-400-Nunito">Your Comment</legend>
+                <textarea rows="9" name="user_comment" cols="60" id="Comment-input-box" ngModel></textarea>
+            </fieldset>
+            <input type="submit" class="submit-box cor-bg-color-lightblue  cor-text-18-400-Nunio cor-mouse" value="Save Changes">
+        </form>
+        <input type="submit" value="Send Message" class="submit-box cor-bg-color-lightblue  cor-text-18-400-Nunio">
+</div>

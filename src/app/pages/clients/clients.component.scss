@@ -1,0 +1,84 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.clients-heading{
+    text-align: center;
+  
+}
+.client-div{
+    background-image: url('../../../assets/images/home/01_cortracker logo_Fin 3 (2).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+   
+
+    
+}
+.clients-img-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    object-fit: contain;
+    width: 121px;
+}
+.client-image{
+    object-fit: contain;
+    width: 280px;
+}
+
+//conditions.......
+
+@media only screen and (max-width: 800px) {
+    .client-image{
+         object-fit: contain;
+         width: 135px;
+       
+    }
+    .client-div{
+        background-image: none;
+    }
+    .clients-heading{
+        font-size: 25px;
+    }
+    .main-div{
+        padding-top: 120px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .client-image{
+         object-fit: contain;
+    }
+    .client-div{
+        background-image: none;
+    }
+    .main-div{
+        padding-top: 120px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .client-image{
+         object-fit: contain;
+         width: 135px;
+    }
+    .client-div{
+        background-image: none;
+    }
+    .main-div{
+        padding-top: 120px;
+    }
+}

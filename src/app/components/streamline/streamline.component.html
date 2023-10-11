@@ -1,0 +1,78 @@
+<!-- <app-header></app-header> -->
+<div class="cor-stream">
+    <div class="cor-stream-inner">
+        <div class="cor-stream1">
+            <!-- <img class="cor-header-img1 blinking-star star1" src="../../../assets/images/home/_Path_L.png" alt="">
+            <img class="cor-header-img2 blinking-star star2" src="../../../assets/images/home/Path-r.png" alt=""> -->
+            <h1 class="cor-text-45-700-Nunito cor-color-lightblue">Streamline your Business,</h1>
+            <div class="cor-d">
+                <div class="cor-d1"></div>
+                <div class="cor-d2"></div>
+            </div>
+            <h1 class="cor-text-45-700-Nunito cor-color-black">with best in class Services.</h1>
+            <p class="cor-text-28-400-Nunito-Sans">Increase your sales and keep track of every unit <br> with our powerful stock
+                management, order,<br> fulllfillment, and inventary control software.</p>
+            <div class="cor-button">
+                <button class="cor-color-headerbg button1 cor-text-16-700-Nunito-Sans"  (click)="popup()"><span>Request a Quote</span></button>
+                <button class="cor-color-headerbg  button2 cor-text-16-700-Nunito-Sans"><span [routerLink]="['/contact']">Request a Call Back</span></button>
+            </div>
+        </div>
+        <!-- <div class="cor-stream2">
+            <div class="cor-top">
+                <div class=" cor-top1 cor-box ">
+                    <div>
+                        <img src="../../../assets/images/icons/operator1.png">
+                        <span class="cor-text-14-600-Nunito">Inventory Management</span><br>
+                    </div>
+                    <div>
+                        <img src="../../../assets/images/icons/operator2.png">
+                        <span class="cor-text-14-600-Nunito">Warehouse Management</span>
+                    </div> 
+             
+                    <img src="../../../assets/images/home/Group_27.png" alt="" class="">
+              
+                </div>
+                <div class="cor-top2 ">
+                    <img src="../../../assets/images/home/Group 293.png">
+                </div>
+            </div>
+            <div class="cor-down">
+                <div class="cor-down1 cor-stream-img">
+                    <img src="../../../assets/images/home/Mask Group.png">
+                </div>
+                <div class="cor-down2 cor-boxz">
+                    <div>
+                        <img src="../../../assets/images/icons/tick.png">
+                        <span class="cor-text-14-600-Nunito">Accountings</span>
+                    </div>
+                    <div>
+                        <img src="../../../assets/images/icons/tick.png">
+                        <span class="cor-text-14-600-Nunito">Returns</span>
+                    </div>
+                    <div>
+                        <img src="../../../assets/images/icons/tick.png">
+                        <span class="cor-text-14-600-Nunito">Invoicing</span>
+                    </div>
+                    <div>
+                        <img src="../../../assets/images/icons/tick.png">
+                        <span class="cor-text-14-600-Nunito">Reportings</span>
+                    </div>
+                  
+                    <img src="../../../assets/images/home/Group_355.png" alt="">
+                   
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+<!-- <div style="position: fixed; top:0;left:0;z-index:1000; background-color: red;" *ngIf="openPopup" >
+        Popup
+</div> -->
+<div class="popup1"  *ngIf="openPopup" >
+    <app-contactreq></app-contactreq>
+    <div class="popuBackground" (click)="openPopup = false"> </div>
+</div>
+
+
+

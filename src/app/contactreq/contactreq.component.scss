@@ -1,0 +1,119 @@
+.form-bg-container{
+    width: 599px;
+    height: 662px;
+    z-index: 1004;
+    position: relative;
+    border: 0.5px solid rgba(48, 46, 167, 0.46);
+    border-radius: 10px;
+    padding:20px;
+  }
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+
+  }
+#form-box1{
+      height: 214px; 
+  }
+.form-box{
+   
+      width: 512px;
+      height: 58px;
+      border: 0.5px solid rgba(48, 46, 167, 0.46);
+      border-radius: 10px;
+  }
+ .form-box-heading{
+      padding: 10px;
+  }
+.submit-box{
+      width: 227px;
+      height: 47px;
+      text-align: center;
+      border-radius: 7px;
+      border:none;
+      color:#ffffff;
+       margin:28px 0px 0px 32px;
+      
+  }
+
+ .input-box{
+    width: 500px;
+    border: none;
+    outline: none;
+ }
+
+textarea{
+    resize: none;
+    width: 500px;
+    border: none;
+    outline: none;
+    
+ }
+
+
+.heading{
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Req{
+    font-size: 16px;
+  }
+  .form-bg-container{
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    margin: 30px;
+    margin-top: 40px;
+    left: 0;
+    width: 303px;
+    height: 434px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 10px;
+  }
+  
+  .form-box {
+       width: 255px;
+       padding:0px;
+   }
+   .form-box-heading{
+       padding: 10px;
+       margin-left: 20px;
+   }
+
+  #form-box1{
+       width: 251px;
+       height: 150px;
+  }
+  textarea{
+   resize: none;
+   width: 255px;
+   height: 100px;
+  }
+  .form-div{
+   gap: 10px;
+ }
+  .submit-box{
+   width: 80px;
+   height: 30px;
+   font-size:10px;
+   padding: 10px;
+    margin: 0px 0px 0px 20px;
+  display: flex;
+  align-self: center;
+   
+  }
+  .input-box{
+   width: 250px;
+   border-radius: 10px;
+  }
+  
+}
+

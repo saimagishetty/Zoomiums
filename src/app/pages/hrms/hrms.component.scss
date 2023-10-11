@@ -1,0 +1,31 @@
+.cor-body{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 100px 80px 50px 80px;
+    box-sizing: border-box;
+}
+.cor-aboutus-header{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: auto;
+    // margin-left: 88px
+}
+@media only screen and (max-width: 600px) {
+    .cor-body{
+        // padding-left: 45px;
+        padding-top: 120px;
+        padding-left: 35px;
+        .head1{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .head2{
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+  }
